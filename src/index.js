@@ -4,7 +4,7 @@ import path from "path"
 import * as core from "@actions/core"
 import * as github from "@actions/github"
 import { Octokit } from "@octokit/rest"
-const { createActionAuth } = require("@octokit/auth-action");
+import { createActionAuth } from "@octokit/auth-action";
 
 import { execShellCommand } from "./helpers"
 
